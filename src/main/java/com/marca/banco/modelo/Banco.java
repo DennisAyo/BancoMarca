@@ -29,7 +29,7 @@ public class Banco implements Serializable {
     private String pais;
 
     @NotNull
-    @Column(name = "BIN", length = 6, nullable = false)
+    @Column(name = "BIN", length = 10, nullable = false)
     private String bin;
 
     @Override
